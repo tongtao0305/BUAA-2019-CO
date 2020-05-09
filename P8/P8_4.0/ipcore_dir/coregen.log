@@ -1,0 +1,15 @@
+INFO:sim:172 - Generating IP...
+Applying current project options...
+Finished applying current project options.
+Resolving generics for 'InstructionMemory'...
+ERROR:sim - Invalid hexadecimal value detected in COE file: 11200002é   .
+ERROR:sim - Invalid hexadecimal value detected in COE file: 11200002é   .
+ERROR:sim - Invalid hexadecimal value detected in COE file: 11200002é   .
+ERROR:sim - IP initializer could not set IP core parameters on IP model
+ERROR:sim - Invalid hexadecimal value detected in COE file: 11200002é   .
+ERROR:sim - Failed to initialize IP model.
+ERROR:sim - Failed executing Tcl generator.
+ERROR:sim - Failed to generate 'InstructionMemory'.  Failed executing Tcl
+   generator.
+
+Wrote CGP file for project 'InstructionMemory'.

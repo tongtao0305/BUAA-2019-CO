@@ -1,0 +1,4 @@
+verilog work "utils.v"
+verilog work "txd.v"
+verilog work "rxd.v"
+verilog work "uart.v"

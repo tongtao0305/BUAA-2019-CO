@@ -1,0 +1,24 @@
+ISim log file
+Running: D:\tongt\Desktop\P5\P5_theForthEdition\test_mips_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/tongt/Desktop/P5/P5_theForthEdition/test_mips_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $ 3 <= 00000001
+                  55@00003004: $ 1 <= 00000001
+                  65@00003008: $ 2 <= 00000002
+                  85@00003010: $ 3 <= 00000001
+                  95@00003014: $17 <= 00000001
+                 105@00003018: $18 <= 00000002
+                 115@0000301c: $19 <= 00000003
+                 125@00003020: $20 <= 00000004
+                 135@00003024: $21 <= 00000005

@@ -1,0 +1,58 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/tongt/Desktop/P7/P7_0.0.1/test_CPU_isim_beh.exe -prj D:/tongt/Desktop/P7/P7_0.0.1/test_CPU_beh.prj work.test_CPU work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/Stall.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/PC.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/NPC.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/MEM_WB.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/MDM.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/IM.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/IF_ID.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/ID_EXE.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/GRF.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/Forward.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/EX_MEM.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/EXT.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/DM.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/CP0.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/Controller.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/ALU.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/CPU.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P7/P7_0.0.1/test_CPU.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/tongt/Desktop/P7/P7_0.0.1/CPU.v" Line 141: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/tongt/Desktop/P7/P7_0.0.1/CPU.v" Line 249: Port MemtoReg is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/tongt/Desktop/P7/P7_0.0.1/CPU.v" Line 345: Port MemtoReg is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/tongt/Desktop/P7/P7_0.0.1/CPU.v" Line 432: Port MemWrite is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/tongt/Desktop/P7/P7_0.0.1/CPU.v" Line 110: Size mismatch in connection of port <ExcCode>. Formal port size is 5-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/tongt/Desktop/P7/P7_0.0.1/CPU.v" Line 136: Size mismatch in connection of port <ExcCodeIn>. Formal port size is 5-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module PC
+Compiling module IM
+Compiling module IF_ID
+Compiling module Controller
+Compiling module GRF
+Compiling module EXT
+Compiling module NPC
+Compiling module ID_EX
+Compiling module ALU
+Compiling module MDM
+Compiling module EX_MEM
+Compiling module DM
+Compiling module CP0
+Compiling module MEM_WB
+Compiling module Stall
+Compiling module Forward
+Compiling module CPU
+Compiling module test_CPU
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\test_CPU_isim_beh.exe.sim\libPortability.dll".
+Compiled 19 Verilog Units
+Built simulation executable D:/tongt/Desktop/P7/P7_0.0.1/test_CPU_isim_beh.exe
+Fuse Memory Usage: 33948 KB
+Fuse CPU Usage: 781 ms

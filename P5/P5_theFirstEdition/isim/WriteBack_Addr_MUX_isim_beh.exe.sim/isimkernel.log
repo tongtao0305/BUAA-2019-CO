@@ -1,0 +1,28 @@
+Command line:
+   WriteBack_Addr_MUX_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  5661
+
+Mon Nov 18 21:21:25 2019
+
+
+ Elaboration Time: 0.265625 sec
+
+ Current Memory Usage: 5817.82 Meg
+
+ Total Signals          : 17
+ Total Nets             : 35
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 120
+
+ Total Simulation Time: 0.296875 sec
+
+ Current Memory Usage: 5817.82 Meg
+
+Mon Nov 18 21:21:27 2019
+

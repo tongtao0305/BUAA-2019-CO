@@ -1,0 +1,73 @@
+ISim log file
+Running: D:\tongt\Desktop\P5\P5_theFirstEdition\test_mips_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/tongt/Desktop/P5/P5_theFirstEdition/test_mips_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING: File "D:/tongt/Desktop/P5/P5_theFirstEdition/mips.v" Line 55.  For instance uut/DM_MUX/, width 2 of formal port ForwardRTM is not equal to width 3 of actual signal ForwardRTM.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $31 <= 00003008
+                  65@00003008: $ 3 <= 00003008
+                 105@00003018: $31 <= 00003020
+                 145@00003028: $ 5 <= 0000000a
+                 155@0000302c: $31 <= 00003034
+                 175@00003034: $ 3 <= 00003034
+                 215@00003044: $31 <= 0000304c
+                 255@00003054: $ 7 <= 0000000a
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $31 <= 00003008
+                  65@00003008: $ 3 <= 00003008
+                 105@00003018: $31 <= 00003020
+                 145@00003028: $ 5 <= 0000000a
+                 155@0000302c: $31 <= 00003034
+                 175@00003034: $ 3 <= 00003034
+                 215@00003044: $31 <= 0000304c
+                 255@00003054: $ 7 <= 0000000a
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $31 <= 00003008
+                  65@00003008: $ 3 <= 00003008
+                 105@00003018: $31 <= 00003020
+                 145@00003028: $ 5 <= 0000000a
+                 155@0000302c: $31 <= 00003034
+                 175@00003034: $ 3 <= 00003034
+                 215@00003044: $31 <= 0000304c
+                 255@00003054: $ 7 <= 0000000a
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $31 <= 00003008
+                  65@00003008: $ 3 <= 00003008
+                 105@00003018: $31 <= 00003020
+                 145@00003028: $ 5 <= 0000000a
+                 155@0000302c: $31 <= 00003034
+                 175@00003034: $ 3 <= 00003034
+                 215@00003044: $31 <= 0000304c
+                 255@00003054: $ 7 <= 0000000a
+Stopped at time : 22302140 ns : File "D:/tongt/Desktop/P5/P5_theFirstEdition/test_mips.v" Line 49
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $31 <= 00003008
+                  65@00003008: $ 3 <= 00003008
+                 105@00003018: $31 <= 00003020
+                 145@00003028: $ 5 <= 0000000a
+                 155@0000302c: $31 <= 00003034
+                 175@00003034: $ 3 <= 00003034
+                 215@00003044: $31 <= 0000304c
+                 255@00003054: $ 7 <= 0000000a

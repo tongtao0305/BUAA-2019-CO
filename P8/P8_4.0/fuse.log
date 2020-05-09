@@ -1,0 +1,101 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/tongt/Desktop/P8/P8_4.0/mips_test_isim_beh.exe -prj D:/tongt/Desktop/P8/P8_4.0/mips_test_beh.prj work.mips_test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/ipcore_dir/CLOCK.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/utils.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/txd.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/rxd.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/ipcore_dir/InstructionMemory.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/ipcore_dir/DataMemory.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/uart.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/Timer.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/Switches.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/Stall.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/PC.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/NPC.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/MEM_WB.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/LED.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/IM.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/IF_ID.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/ID_EXE.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/GRF.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/Forward.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/EX_MEM.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/EXT.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/DM.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/Digitaltube.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/CP0.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/Controller.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/Buttons.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/ALU.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/CPU.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/Bridge.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/mips.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P8/P8_4.0/mips_test.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/tongt/Desktop/P8/P8_4.0/CPU.v" Line 141: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/tongt/Desktop/P8/P8_4.0/CPU.v" Line 249: Port MemtoReg is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/tongt/Desktop/P8/P8_4.0/CPU.v" Line 325: Port MemtoReg is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/tongt/Desktop/P8/P8_4.0/CPU.v" Line 423: Port MemWrite is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/tongt/Desktop/P8/P8_4.0/IM.v" Line 29: Size mismatch in connection of port <addra>. Formal port size is 11-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "D:/tongt/Desktop/P8/P8_4.0/DM.v" Line 50: Size mismatch in connection of port <addra>. Formal port size is 11-bit while actual signal size is 13-bit.
+WARNING:HDLCompiler:189 - "D:/tongt/Desktop/P8/P8_4.0/Bridge.v" Line 121: Size mismatch in connection of port <STB_I>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module IBUFG
+Compiling module dcm_sp_clock_divide_by_2
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_maximum_period_check(cloc...
+Compiling module dcm_sp_clock_lost
+Compiling module DCM_SP(CLKIN_PERIOD=40.0,CLK_FEE...
+Compiling module BUFG
+Compiling module CLOCK
+Compiling module PC
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module InstructionMemory
+Compiling module IM
+Compiling module IF_ID
+Compiling module Controller
+Compiling module GRF
+Compiling module EXT
+Compiling module NPC
+Compiling module ID_EX
+Compiling module ALU
+Compiling module EX_MEM
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module DataMemory
+Compiling module DM
+Compiling module CP0
+Compiling module MEM_WB
+Compiling module Stall
+Compiling module Forward
+Compiling module CPU
+Compiling module Timer
+Compiling module rx_unit
+Compiling module ctrl_shift
+Compiling module trans_reg
+Compiling module tx_unit
+Compiling module counter(size_cnt=16)
+Compiling module divisor(size_cnt_rx=16,size_cnt_...
+Compiling module MiniUART
+Compiling module Switches
+Compiling module LED
+Compiling module Digitaltube
+Compiling module Buttons
+Compiling module Bridge
+Compiling module mips
+Compiling module mips_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 11 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\mips_test_isim_beh.exe.sim\libPortability.dll".
+Compiled 48 Verilog Units
+Built simulation executable D:/tongt/Desktop/P8/P8_4.0/mips_test_isim_beh.exe
+Fuse Memory Usage: 37452 KB
+Fuse CPU Usage: 1046 ms

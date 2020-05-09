@@ -1,0 +1,118 @@
+ISim log file
+Running: D:\tongt\Desktop\P4\P4\mips_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/tongt/Desktop/P4/P4/mips_test_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING: File "D:/tongt/Desktop/P4/P4/mips.v" Line 128.  For instance uut/EXT/, width 2 of formal port ExtOp is not equal to width 1 of actual signal Extop.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+@00003000: $28 <= 00000000
+@00003004: $29 <= 00000000
+@00003008: $ 1 <= 00000000
+@0000300c: $ 1 <= 00000000
+@00003010: $ 1 <= xxxxxxxx
+@00003014: $ 1 <= 00000000
+@00003014: *000 <= zzzzzzzz
+@00003018: $ 2 <= 00000000
+@0000301c: $ 1 <= xxxxxxxx
+@00003020: $ 5 <= 00000000
+@00003024: $ 4 <= 00000000
+@00003028: $ 0 <= 00000000
+@0000302c: $ 5 <= 00000000
+@0000302c: *000 <= zzzzzzzz
+@00003030: $ 3 <= zzzzzzzz
+@00003034: $ 5 <= xxxxxxxx
+@00003038: $ 0 <= 00000000
+@0000303c: $ 0 <= 00000000
+@00003040: $ 0 <= 00000000
+@00003044: $ 7 <= xxxxxxxx
+@00003048: $ 3 <= xxxxxxxx
+@0000304c: $ 0 <= 00000000
+@00003050: $ 8 <= 00000000
+@00003054: $ 8 <= 00000000
+@00003058: $ 8 <= 00000000
+@0000305c: $ 0 <= 00000000
+@00003060: $ 6 <= xxxxxxxx
+@00003064: $ 8 <= 00000000
+@00003068: $ 9 <= 00000000
+@0000306c: $10 <= 00000000
+@00003070: $10 <= 00000000
+@00003074: $ 9 <= 00000000
+@00003078: $31 <= 0000307c
+@0000307c: $ 0 <= 00000000
+@00003080: $10 <= 00000000
+@00003084: $ 0 <= 00000000
+@00003088: $10 <= 00000000
+@0000308c: $ 0 <= 00003090
+@00003090: $ 0 <= 00000000
+@00003094: $ x <= xxxxxxxx
+@00003098: $ x <= xxxxxxxx
+@0000309c: $ x <= xxxxxxxx
+@000030a0: $ x <= xxxxxxxx
+@000030a4: $ x <= xxxxxxxx
+@000030a8: $ x <= xxxxxxxx
+@000030ac: $ x <= xxxxxxxx
+@000030b0: $ x <= xxxxxxxx
+@000030b4: $ x <= xxxxxxxx
+@000030b8: $ x <= xxxxxxxx
+@000030bc: $ x <= xxxxxxxx
+@000030c0: $ x <= xxxxxxxx
+@000030c4: $ x <= xxxxxxxx
+@000030c8: $ x <= xxxxxxxx
+@000030cc: $ x <= xxxxxxxx
+@000030d0: $ x <= xxxxxxxx
+@000030d4: $ x <= xxxxxxxx
+@000030d8: $ x <= xxxxxxxx
+@000030dc: $ x <= xxxxxxxx
+@000030e0: $ x <= xxxxxxxx
+@000030e4: $ x <= xxxxxxxx
+@000030e8: $ x <= xxxxxxxx
+@000030ec: $ x <= xxxxxxxx
+@000030f0: $ x <= xxxxxxxx
+@000030f4: $ x <= xxxxxxxx
+@000030f8: $ x <= xxxxxxxx
+@000030fc: $ x <= xxxxxxxx
+@00003100: $ x <= xxxxxxxx
+@00003104: $ x <= xxxxxxxx
+@00003108: $ x <= xxxxxxxx
+@0000310c: $ x <= xxxxxxxx
+@00003110: $ x <= xxxxxxxx
+@00003114: $ x <= xxxxxxxx
+@00003118: $ x <= xxxxxxxx
+@0000311c: $ x <= xxxxxxxx
+@00003120: $ x <= xxxxxxxx
+@00003124: $ x <= xxxxxxxx
+@00003128: $ x <= xxxxxxxx
+@0000312c: $ x <= xxxxxxxx
+@00003130: $ x <= xxxxxxxx
+@00003134: $ x <= xxxxxxxx
+@00003138: $ x <= xxxxxxxx
+@0000313c: $ x <= xxxxxxxx
+@00003140: $ x <= xxxxxxxx
+@00003144: $ x <= xxxxxxxx
+@00003148: $ x <= xxxxxxxx
+@0000314c: $ x <= xxxxxxxx
+@00003150: $ x <= xxxxxxxx
+@00003154: $ x <= xxxxxxxx
+@00003158: $ x <= xxxxxxxx
+@0000315c: $ x <= xxxxxxxx
+@00003160: $ x <= xxxxxxxx
+@00003164: $ x <= xxxxxxxx
+@00003168: $ x <= xxxxxxxx
+@0000316c: $ x <= xxxxxxxx
+@00003170: $ x <= xxxxxxxx
+@00003174: $ x <= xxxxxxxx
+@00003178: $ x <= xxxxxxxx
+@0000317c: $ x <= xxxxxxxx
+@00003180: $ x <= xxxxxxxx
+@00003184: $ x <= xxxxxxxx
+@00003188: $ x <= xxxxxxxx
+@0000318c: $ x <= xxxxxxxx

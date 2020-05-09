@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;mips.v&quot; line 273 </arg>Connection to input port &apos;<arg fmt="%s" index="2">ForwardRTM</arg>&apos; does not match port size
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="new" >&quot;<arg fmt="%s" index="1">IM.v</arg>&quot; line <arg fmt="%d" index="2">31</arg>: reading initialization file &quot;<arg fmt="%s" index="3">code.txt</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="2319" delta="new" >&quot;<arg fmt="%s" index="1">IM.v</arg>&quot; line <arg fmt="%d" index="2">31</arg>: Signal <arg fmt="%s" index="3">im</arg> in initial block is partially initialized. The initialization will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="2321" delta="new" >&quot;<arg fmt="%s" index="1">GRF.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>: Parameter <arg fmt="%d" index="3">2</arg> (<arg fmt="%s" index="4">$time</arg>) is not supported in call of system task <arg fmt="%s" index="5">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2323" delta="new" >&quot;<arg fmt="%s" index="1">GRF.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>: Parameter <arg fmt="%d" index="3">3</arg> is not constant in call of system task <arg fmt="%s" index="4">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2323" delta="new" >&quot;<arg fmt="%s" index="1">GRF.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>: Parameter <arg fmt="%d" index="3">4</arg> is not constant in call of system task <arg fmt="%s" index="4">$display</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2323" delta="new" >&quot;<arg fmt="%s" index="1">GRF.v</arg>&quot; line <arg fmt="%d" index="2">52</arg>: Parameter <arg fmt="%d" index="3">5</arg> is not constant in call of system task <arg fmt="%s" index="4">$display</arg>.
+</msg>
+
+<msg type="error" file="Xst" num="880" delta="new" >&quot;<arg fmt="%s" index="1">ID_EXE.v</arg>&quot; line <arg fmt="%d" index="2">68</arg>: Cannot mix blocking and non blocking assignments on signal &lt;<arg fmt="%s" index="3">PC8_DE</arg>&gt;.
+</msg>
+
+<msg type="error" file="Xst" num="880" delta="new" >&quot;<arg fmt="%s" index="1">ID_EXE.v</arg>&quot; line <arg fmt="%d" index="2">69</arg>: Cannot mix blocking and non blocking assignments on signal &lt;<arg fmt="%s" index="3">RS_DE</arg>&gt;.
+</msg>
+
+<msg type="error" file="Xst" num="880" delta="new" >&quot;<arg fmt="%s" index="1">ID_EXE.v</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Cannot mix blocking and non blocking assignments on signal &lt;<arg fmt="%s" index="3">RT_DE</arg>&gt;.
+</msg>
+
+<msg type="error" file="Xst" num="880" delta="new" >&quot;<arg fmt="%s" index="1">ID_EXE.v</arg>&quot; line <arg fmt="%d" index="2">71</arg>: Cannot mix blocking and non blocking assignments on signal &lt;<arg fmt="%s" index="3">EXT_DE</arg>&gt;.
+</msg>
+
+</messages>
+

@@ -1,0 +1,215 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc6slx100-2-fgg676
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\Stall.v" into library work
+Parsing module <Stall>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\PC.v" into library work
+Parsing module <PC>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\NPC.v" into library work
+Parsing module <NPC>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\MEM_WB.v" into library work
+Parsing module <MEM_WB>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\IM.v" into library work
+Parsing module <IM>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\IF_ID.v" into library work
+Parsing module <IF_ID>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\ID_EXE.v" into library work
+Parsing module <ID_EX>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\GRF.v" into library work
+Parsing module <GRF>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\Forward.v" into library work
+Parsing module <Forward>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\EX_MEM.v" into library work
+Parsing module <EX_MEM>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\EXT.v" into library work
+Parsing module <EXT>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\DM.v" into library work
+Parsing module <DM>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\CP0.v" into library work
+Parsing module <CP0>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\Controller.v" into library work
+Parsing module <Controller>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\Timer.v" into library work
+Parsing module <Timer>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\CPU.v" into library work
+Parsing module <CPU>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\Bridge.v" into library work
+Parsing module <Bridge>.
+Analyzing Verilog file "D:\tongt\Desktop\P8\P8_2.0\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+WARNING:HDLCompiler:1016 - "D:\tongt\Desktop\P8\P8_2.0\CPU.v" Line 141: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\tongt\Desktop\P8\P8_2.0\CPU.v" Line 249: Port MemtoReg is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\tongt\Desktop\P8\P8_2.0\CPU.v" Line 325: Port MemtoReg is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:\tongt\Desktop\P8\P8_2.0\CPU.v" Line 422: Port MemWrite is not connected to this instance
+
+Elaborating module <CPU>.
+
+Elaborating module <PC>.
+WARNING:HDLCompiler:413 - "D:\tongt\Desktop\P8\P8_2.0\PC.v" Line 43: Result of 32-bit expression is truncated to fit in 5-bit target.
+
+Elaborating module <IM>.
+Reading initialization file \"code.txt\".
+WARNING:HDLCompiler:1670 - "D:\tongt\Desktop\P8\P8_2.0\IM.v" Line 31: Signal <im> in initial block is partially initialized.
+Reading initialization file \"code_handler.txt\".
+WARNING:HDLCompiler:1670 - "D:\tongt\Desktop\P8\P8_2.0\IM.v" Line 32: Signal <im> in initial block is partially initialized.
+
+Elaborating module <IF_ID>.
+
+Elaborating module <Controller>.
+WARNING:HDLCompiler:413 - "D:\tongt\Desktop\P8\P8_2.0\Controller.v" Line 155: Result of 32-bit expression is truncated to fit in 5-bit target.
+
+Elaborating module <GRF>.
+"D:\tongt\Desktop\P8\P8_2.0\GRF.v" Line 53. $display  32'b................................ 5'b..... 32'b................................
+
+Elaborating module <EXT>.
+
+Elaborating module <NPC>.
+
+Elaborating module <ID_EX>.
+WARNING:HDLCompiler:413 - "D:\tongt\Desktop\P8\P8_2.0\ID_EXE.v" Line 140: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:1127 - "D:\tongt\Desktop\P8\P8_2.0\CPU.v" Line 264: Assignment to Branch_E ignored, since the identifier is never used
+
+Elaborating module <ALU>.
+WARNING:HDLCompiler:413 - "D:\tongt\Desktop\P8\P8_2.0\ALU.v" Line 38: Result of 32-bit expression is truncated to fit in 5-bit target.
+
+Elaborating module <EX_MEM>.
+WARNING:HDLCompiler:413 - "D:\tongt\Desktop\P8\P8_2.0\EX_MEM.v" Line 118: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:1127 - "D:\tongt\Desktop\P8\P8_2.0\CPU.v" Line 311: Assignment to A1_M ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\tongt\Desktop\P8\P8_2.0\CPU.v" Line 344: Assignment to ERET_M ignored, since the identifier is never used
+
+Elaborating module <DM>.
+WARNING:HDLCompiler:413 - "D:\tongt\Desktop\P8\P8_2.0\DM.v" Line 60: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\tongt\Desktop\P8\P8_2.0\DM.v" Line 61: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\tongt\Desktop\P8\P8_2.0\DM.v" Line 62: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\tongt\Desktop\P8\P8_2.0\DM.v" Line 63: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\tongt\Desktop\P8\P8_2.0\DM.v" Line 64: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\tongt\Desktop\P8\P8_2.0\DM.v" Line 65: Result of 32-bit expression is truncated to fit in 8-bit target.
+"D:\tongt\Desktop\P8\P8_2.0\DM.v" Line 68. $display  32'b................................ 32'b................................ 32'b................................
+WARNING:HDLCompiler:413 - "D:\tongt\Desktop\P8\P8_2.0\DM.v" Line 95: Result of 32-bit expression is truncated to fit in 5-bit target.
+
+Elaborating module <CP0>.
+
+Elaborating module <MEM_WB>.
+WARNING:HDLCompiler:413 - "D:\tongt\Desktop\P8\P8_2.0\MEM_WB.v" Line 96: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:1127 - "D:\tongt\Desktop\P8\P8_2.0\CPU.v" Line 406: Assignment to PC4_W ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\tongt\Desktop\P8\P8_2.0\CPU.v" Line 418: Assignment to BD_W ignored, since the identifier is never used
+
+Elaborating module <Stall>.
+
+Elaborating module <Forward>.
+
+Elaborating module <Bridge>.
+
+Elaborating module <Timer>.

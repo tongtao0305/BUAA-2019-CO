@@ -1,0 +1,28 @@
+Command line:
+   tb_buaa_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  2166
+
+Sat Oct 12 16:17:18 2019
+
+
+ Elaboration Time: 0.140401 sec
+
+ Current Memory Usage: 1314.17 Meg
+
+ Total Signals          : 17
+ Total Nets             : 30
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 143
+
+ Total Simulation Time: 0.156001 sec
+
+ Current Memory Usage: 1471.43 Meg
+
+Sat Oct 12 16:17:54 2019
+

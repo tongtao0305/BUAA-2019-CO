@@ -1,0 +1,296 @@
+ISim log file
+Running: D:\tongt\Desktop\P8\P8_4.0\mips_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/tongt/Desktop/P8/P8_4.0/mips_test_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING:  For instance IM/InstructionMemory/, width 11 of formal port addra is not equal to width 32 of actual constant.
+WARNING: For instance DM/DataMemory/, width 11 of formal port addra is not equal to width 13 of actual.
+WARNING:  For instance Bridge/MiniUART/, width 1 of formal port STB_I is not equal to width 32 of actual constant.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.IM.InstructionMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.DM.DataMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+@00003000: $17 <= 00007f00
+@00003004: $18 <= 00007f10
+@00003008: $19 <= 00007f2c
+@0000300c: $20 <= 00007f34
+@00003010: $21 <= 00007f38
+@00003014: $22 <= 00007f40
+@00003018: $25 <= 0000fc01
+@00003020: $23 <= 00000001
+@00003024: $ 8 <= fefefefe
+@00003028: $ 9 <= 00000001
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.IM.InstructionMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.DM.DataMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+@00003000: $17 <= 00007f00
+@00003004: $18 <= 00007f10
+@00003008: $19 <= 00007f2c
+@0000300c: $20 <= 00007f34
+@00003010: $21 <= 00007f38
+@00003014: $22 <= 00007f40
+@00003018: $25 <= 0000fc01
+@00003020: $23 <= 00000001
+@00003024: $ 8 <= fefefefe
+@00003028: $ 9 <= 00000001
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.IM.InstructionMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.DM.DataMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+@00003000: $17 <= 00007f00
+@00003004: $18 <= 00007f10
+@00003008: $19 <= 00007f2c
+@0000300c: $20 <= 00007f34
+@00003010: $21 <= 00007f38
+@00003014: $22 <= 00007f40
+@00003018: $25 <= 0000fc01
+@00003020: $23 <= 00000001
+@00003024: $ 8 <= fefefefe
+@00003028: $ 9 <= 00000001
+# run 1.00us
+@00003038: $ 9 <= 00000001
+@00003048: $14 <= 0000000e
+@00003050: $ 8 <= 0fefefef
+@00003054: $14 <= 0000000f
+@0000305c: $ 8 <= 00fefefe
+@00003060: $14 <= 0000000e
+@00003068: $ 8 <= 000fefef
+@0000306c: $14 <= 0000000f
+@00003074: $ 8 <= 0000fefe
+@00003078: $14 <= 0000000e
+@00003080: $ 8 <= 00000fef
+@00003084: $14 <= 0000000f
+@0000308c: $ 8 <= 000000fe
+@00003090: $14 <= 0000000e
+@00003098: $ 8 <= 0000000f
+@0000309c: $14 <= 0000000f
+@000030a4: $24 <= 00000008
+@000030a8: $11 <= 00000020
+@000030ac: $11 <= 00000001
+@000030b0: $11 <= 00000001
+@000030b4: $ 1 <= 00000001
+@000030c0: $ 1 <= 00000000
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.IM.InstructionMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.DM.DataMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+@00003000: $17 <= 00007f00
+@00003004: $18 <= 00007f10
+@00003008: $19 <= 00007f2c
+@0000300c: $20 <= 00007f34
+@00003010: $21 <= 00007f38
+@00003014: $22 <= 00007f40
+@00003018: $25 <= 0000fc01
+@00003020: $23 <= 00000001
+@00003024: $ 8 <= fefefefe
+@00003028: $ 9 <= 00000001
+# run 1.00us
+@00003038: $ 9 <= 00000001
+@00003048: $14 <= 0000000e
+@00003050: $ 8 <= 0fefefef
+@00003054: $14 <= 0000000f
+@0000305c: $ 8 <= 00fefefe
+@00003060: $14 <= 0000000e
+@00003068: $ 8 <= 000fefef
+@0000306c: $14 <= 0000000f
+@00003074: $ 8 <= 0000fefe
+@00003078: $14 <= 0000000e
+@00003080: $ 8 <= 00000fef
+@00003084: $14 <= 0000000f
+@0000308c: $ 8 <= 000000fe
+@00003090: $14 <= 0000000e
+@00003098: $ 8 <= 0000000f
+@0000309c: $14 <= 0000000f
+@000030a4: $24 <= 00000008
+@000030a8: $11 <= 00000020
+@000030ac: $11 <= 00000001
+@000030b0: $11 <= 00000001
+@000030b4: $ 1 <= 00000001
+@000030c0: $ 1 <= 00000000
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.IM.InstructionMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.DM.DataMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+@00003000: $17 <= 00007f00
+@00003004: $18 <= 00007f10
+@00003008: $19 <= 00007f2c
+@0000300c: $20 <= 00007f34
+@00003010: $21 <= 00007f38
+@00003014: $22 <= 00007f40
+@00003018: $25 <= 0000fc01
+@00003020: $23 <= 00000001
+@00003024: $ 8 <= fefefefe
+@00003028: $ 9 <= 00000001
+# run 1.00us
+@00003038: $ 9 <= 00000001
+@00003048: $14 <= 0000000e
+@00003050: $ 8 <= 0fefefef
+@00003054: $14 <= 0000000f
+@0000305c: $ 8 <= 00fefefe
+@00003060: $14 <= 0000000e
+@00003068: $ 8 <= 000fefef
+@0000306c: $14 <= 0000000f
+@00003074: $ 8 <= 0000fefe
+@00003078: $14 <= 0000000e
+@00003080: $ 8 <= 00000fef
+@00003084: $14 <= 0000000f
+@0000308c: $ 8 <= 000000fe
+@00003090: $14 <= 0000000e
+@00003098: $ 8 <= 0000000f
+@0000309c: $14 <= 0000000f
+@000030a4: $24 <= 00000008
+@000030a8: $11 <= 00000020
+@000030ac: $11 <= 00000001
+@000030b0: $11 <= 00000001
+@000030b4: $ 1 <= 00000001
+@000030c0: $ 1 <= 00000000
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.IM.InstructionMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.DM.DataMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+@00003000: $17 <= 00007f00
+@00003004: $18 <= 00007f10
+@00003008: $19 <= 00007f2c
+@0000300c: $20 <= 00007f34
+@00003010: $21 <= 00007f38
+@00003014: $22 <= 00007f40
+@00003018: $25 <= 0000fc01
+@00003020: $23 <= 00000001
+@00003024: $ 8 <= fefefefe
+@00003028: $ 9 <= 00000001
+# run 1.00us
+@00003038: $ 9 <= 00000001
+@00003048: $14 <= 0000000e
+@00003050: $ 8 <= 0fefefef
+@00003054: $14 <= 0000000f
+@0000305c: $ 8 <= 00fefefe
+@00003060: $14 <= 0000000e
+@00003068: $ 8 <= 000fefef
+@0000306c: $14 <= 0000000f
+@00003074: $ 8 <= 0000fefe
+@00003078: $14 <= 0000000e
+@00003080: $ 8 <= 00000fef
+@00003084: $14 <= 0000000f
+@0000308c: $ 8 <= 000000fe
+@00003090: $14 <= 0000000e
+@00003098: $ 8 <= 0000000f
+@0000309c: $14 <= 0000000f
+@000030a4: $24 <= 00000008
+@000030a8: $11 <= 00000020
+@000030ac: $11 <= 00000001
+@000030b0: $11 <= 00000001
+@000030b4: $ 1 <= 00000001
+@000030c0: $ 1 <= 00000000
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+ Block Memory Generator CORE Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.IM.InstructionMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator CORE Generator module mips_test.uut.CPU.DM.DataMemory.inst.\native_mem_module.blk_mem_gen_v7_3_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Finished circuit initialization process.
+@00003000: $17 <= 00007f00
+@00003004: $18 <= 00007f10
+@00003008: $19 <= 00007f2c
+@0000300c: $20 <= 00007f34
+@00003010: $21 <= 00007f38
+@00003014: $22 <= 00007f40
+@00003018: $25 <= 0000fc01
+@00003020: $23 <= 00000001
+@00003024: $ 8 <= fefefefe
+@00003028: $ 9 <= 00000001
+# run 1.00us
+@00003038: $ 9 <= 00000001
+@00003048: $14 <= 0000000e
+@00003050: $ 8 <= 0fefefef
+@00003054: $14 <= 0000000f
+@0000305c: $ 8 <= 00fefefe
+@00003060: $14 <= 0000000e
+@00003068: $ 8 <= 000fefef
+@0000306c: $14 <= 0000000f
+@00003074: $ 8 <= 0000fefe
+@00003078: $14 <= 0000000e
+@00003080: $ 8 <= 00000fef
+@00003084: $14 <= 0000000f
+@0000308c: $ 8 <= 000000fe
+@00003090: $14 <= 0000000e
+@00003098: $ 8 <= 0000000f
+@0000309c: $14 <= 0000000f
+@000030a4: $24 <= 00000008
+@000030a8: $11 <= 00000020
+@000030ac: $11 <= 00000001
+@000030b0: $11 <= 00000001
+@000030b4: $ 1 <= 00000001
+@000030c0: $ 1 <= 00000000
+# run 1.00us
+@000030c4: $ 1 <= 00000001
+@000030c8: $24 <= 00000007
+@000030cc: $10 <= 0000000f
+@000030d0: $14 <= 00000000
+@000030d4: $ 1 <= 00000001
+@000030e0: $10 <= 00000046
+@000030f8: $23 <= 00000000
+@000030a8: $11 <= 00000000
+@000030ac: $11 <= 00000000
+@000030b0: $11 <= 00000000
+@000030b4: $ 1 <= 00000001
+@000030a8: $11 <= 00000000
+@000030ac: $11 <= 00000000
+@000030b0: $11 <= 00000000
+@000030b4: $ 1 <= 00000001
+@000030a8: $11 <= 00000000
+@000030ac: $11 <= 00000000
+@000030b0: $11 <= 00000000
+@000030b4: $ 1 <= 00000001
+# run 1.00us
+@000030a8: $11 <= 00000000
+@000030ac: $11 <= 00000000
+@000030b0: $11 <= 00000000
+@000030b4: $ 1 <= 00000001
+@000030a8: $11 <= 00000000
+@000030ac: $11 <= 00000000
+@000030b0: $11 <= 00000000
+@000030b4: $ 1 <= 00000001
+@000030a8: $11 <= 00000000
+@000030ac: $11 <= 00000000
+@000030b0: $11 <= 00000000
+@000030b4: $ 1 <= 00000001
+@000030a8: $11 <= 00000000
+@000030ac: $11 <= 00000000
+@000030b0: $11 <= 00000000
+@000030b4: $ 1 <= 00000001
+@000030a8: $11 <= 00000000
+@000030ac: $11 <= 00000000
+@000030b0: $11 <= 00000000
+@000030b4: $ 1 <= 00000001

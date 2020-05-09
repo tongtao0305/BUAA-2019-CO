@@ -1,0 +1,5 @@
+set -tmpdir "D:/tongt/Desktop/P5/P5_theSecondEdition/xst/projnav.tmp"
+set -xsthdpdir "D:/tongt/Desktop/P5/P5_theSecondEdition/xst"
+elaborate
+-ifn Forward.prj
+-ifmt mixed

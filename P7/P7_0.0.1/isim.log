@@ -1,0 +1,59 @@
+ISim log file
+Running: D:\tongt\Desktop\P7\P7_0.0.1\test_CPU_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/tongt/Desktop/P7/P7_0.0.1/test_CPU_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+WARNING: File "D:/tongt/Desktop/P7/P7_0.0.1/CPU.v" Line 110.  For instance uut/PC/, width 5 of formal port ExcCode is not equal to width 1 of actual signal ExcCode_FF.
+WARNING: File "D:/tongt/Desktop/P7/P7_0.0.1/CPU.v" Line 110.  For instance uut/IF_ID/, width 5 of formal port ExcCodeIn is not equal to width 1 of actual signal ExcCode_FF.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                  45@00003000: $28 <= 00000000
+                  55@00003004: $29 <= 00000000
+                  65@00003008: $30 <= 00000000
+                  75@0000300c: $31 <= 00000000
+                  85@00003010: $28 <= 00000004
+                 125@00003020: $ 1 <= ffff0000
+                 135@00003024: $ 1 <= ffffaa99
+                 145@00003028: $ 2 <= 00000000
+                 155@0000302c: $ 2 <= 0000787f
+                 195@0000303c: $26 <= 00002318
+                 225@0000304c: *00000000 <= 00002318
+                 245@00003050: $29 <= 00000004
+                 275@0000305c: $ 4 <= ffff0000
+                 285@00003060: $ 4 <= ffff85dc
+                 295@00003064: $ 5 <= ffff0000
+                 305@00003068: $ 5 <= ffff83d3
+                 375@00003088: *00000004 <= 00000000
+                 395@0000308c: $29 <= 00000008
+                 425@00003098: $16 <= ffff0000
+                 435@0000309c: $16 <= ffffd9ef
+                 445@000030a0: $17 <= ffff0000
+                 455@000030a4: $17 <= ffff8dcd
+                 495@000030b4: $27 <= 00004c22
+                 525@000030c4: *00000008 <= 00004c22
+                 545@000030c8: $29 <= 0000000c
+                 575@000030d4: $ 2 <= ffff0000
+                 585@000030d8: $ 2 <= fffff12e
+                 625@000030e8: $19 <= fffff1af
+                 655@000030f8: *0000000c <= fffff1af
+                 675@000030fc: $29 <= 00000010
+                 705@00003108: $26 <= ffff0000
+                 715@0000310c: $26 <= ffffe2b7
+                 785@0000312c: *00000010 <= 00000000
+                 805@00003130: $29 <= 00000014
+                 835@0000313c: $14 <= ffff0000
+                 845@00003140: $14 <= ffffe504
+                 885@00003150: $15 <= 0000085d
+                 925@00003160: $14 <= 00000000
+                 955@00003170: *00000014 <= 00000000
+                 975@00003174: $29 <= 00000018
+                 975@00003178: *00000018 <= 0000085d
+                 995@0000317c: $29 <= 0000001c

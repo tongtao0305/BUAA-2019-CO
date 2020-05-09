@@ -1,0 +1,64 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/tongt/Desktop/P7/P7_0.0.1/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> Parameter xsthdpdir set to D:/tongt/Desktop/P7/P7_0.0.1/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.26 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "Stall.v" in library work
+Compiling verilog file "PC.v" in library work
+Module <Stall> compiled
+Compiling verilog file "NPC.v" in library work
+Module <PC> compiled
+Compiling verilog file "MEM_WB.v" in library work
+Module <NPC> compiled
+Compiling verilog file "MDM.v" in library work
+Module <MEM_WB> compiled
+Compiling verilog file "IM.v" in library work
+Module <MDM> compiled
+Compiling verilog file "IF_ID.v" in library work
+Module <IM> compiled
+Compiling verilog file "ID_EXE.v" in library work
+Module <IF_ID> compiled
+Compiling verilog file "GRF.v" in library work
+Module <ID_EX> compiled
+Compiling verilog file "Forward.v" in library work
+Module <GRF> compiled
+Compiling verilog file "EX_MEM.v" in library work
+Module <Forward> compiled
+Compiling verilog file "EXT.v" in library work
+Module <EX_MEM> compiled
+Compiling verilog file "DM.v" in library work
+Module <EXT> compiled
+WARNING:HDLCompilers:301 - "DM.v" line 91 Too many digits specified in hex constant
+Compiling verilog file "CP0.v" in library work
+Module <DM> compiled
+Compiling verilog file "Controller.v" in library work
+Module <CP0> compiled
+Compiling verilog file "ALU.v" in library work
+Module <Controller> compiled
+Compiling verilog file "CPU.v" in library work
+Module <ALU> compiled
+ERROR:HDLCompilers:28 - "CPU.v" line 547 'MemWrite' has not been declared
+Module <CPU> compiled
+Analysis of file <"CPU.prj"> failed.
+--> 
+
+Total memory usage is 4477620 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

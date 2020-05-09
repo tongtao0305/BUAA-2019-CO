@@ -1,0 +1,5 @@
+set -tmpdir "D:/tongt/Desktop/P5/P5_theForthEdition/xst/projnav.tmp"
+set -xsthdpdir "D:/tongt/Desktop/P5/P5_theForthEdition/xst"
+elaborate
+-ifn mips.prj
+-ifmt mixed

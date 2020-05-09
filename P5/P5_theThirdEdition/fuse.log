@@ -1,0 +1,54 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/tongt/Desktop/P5/P5_theThirdEdition/test_mips_isim_beh.exe -prj D:/tongt/Desktop/P5/P5_theThirdEdition/test_mips_beh.prj work.test_mips work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/Stall.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/PC.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/NPC.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/MEM_WB.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/IM.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/IF_ID.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/ID_EXE.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/GRF.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/Forward.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/EX_MEM.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/EXT.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/DM.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/Controller.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/AT.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/ALU.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/mips.v" into library work
+Analyzing Verilog file "D:/tongt/Desktop/P5/P5_theThirdEdition/test_mips.v" into library work
+Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/tongt/Desktop/P5/P5_theThirdEdition/mips.v" Line 105: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/tongt/Desktop/P5/P5_theThirdEdition/mips.v" Line 212: Port MemtoReg is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/tongt/Desktop/P5/P5_theThirdEdition/mips.v" Line 271: Port MemtoReg is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/tongt/Desktop/P5/P5_theThirdEdition/mips.v" Line 330: Port MemWrite is not connected to this instance
+Completed static elaboration
+Compiling module PC
+Compiling module IM
+Compiling module IF_ID
+Compiling module Controller
+Compiling module AT
+Compiling module GRF
+Compiling module EXT
+Compiling module NPC
+Compiling module ID_EX
+Compiling module ALU
+Compiling module EX_MEM
+Compiling module DM
+Compiling module MEM_WB
+Compiling module Stall
+Compiling module Forward
+Compiling module mips
+Compiling module test_mips
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\test_mips_isim_beh.exe.sim\libPortability.dll".
+Compiled 18 Verilog Units
+Built simulation executable D:/tongt/Desktop/P5/P5_theThirdEdition/test_mips_isim_beh.exe
+Fuse Memory Usage: 33032 KB
+Fuse CPU Usage: 1421 ms
